@@ -1,0 +1,32 @@
+{
+  "name": "koa-boilerplate",
+  "version": "1.0.0",
+  "description": "Koa basic server boilerplate example",
+  "main": "index.js",
+  "scripts": {
+    "dev": "sudo pm2 start ./config/app.json --only koaBoilerplate-development --env development",
+    "prod": "pm2 start ./config/app.json --only koaBoilerplate-production --env production",
+    "doc": "jsdoc -c ./config/jsdoc.json"
+  },
+  "keywords": [
+    "koa2",
+    "async",
+    "await"
+  ],
+  "author": "MDSLab",
+  "license": "ISC",
+  "dependencies": {
+    "bejs": "^1.0.20",
+    "http2": "^3.3.6",
+    "jws": "^3.1.4",
+    "koa": "^2.3.0",
+    "koa-body": "^2.3.0",
+    "koa-router": "^7.2.1",
+    "mongoose": "^4.11.0",
+    "mongoose-mongodb-errors": "^0.0.2"
+  },
+  "devDependencies": {
+    "jsdoc": "^3.4.3",
+    "jsdoc-strip-async-await": "^0.1.0"
+  }
+}
