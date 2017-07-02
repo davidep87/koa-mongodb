@@ -1,6 +1,6 @@
 {
 	"apps": [{
-		"name": "koaBoilerplate-development",
+		"name": "koaMongoDB-development",
 		"script": "index.js",
 		"exec_mode": "cluster",
 		"node_args": "--max_old_space_size=512",
@@ -15,7 +15,7 @@
 	  },
 		"env": { "NODE_ENV": "development" },
 	},{
-		"name": "koaBoilerplate-staging",
+		"name": "koaMongoDB-staging",
 		"script": "index.js",
 		"exec_mode": "cluster",
 		"node_args": "--max_old_space_size=256",
@@ -30,7 +30,7 @@
 	  },
 		"env": { "NODE_ENV": "staging" },
 	},{
-		"name": "koaBoilerplate-production",
+		"name": "koaMongoDB-production",
 		"script": "index.js",
 		"exec_mode": "cluster",
 		"node_args": "--max_old_space_size=1024",

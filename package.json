@@ -1,11 +1,11 @@
 {
-  "name": "koa-boilerplate",
+  "name": "koa-mongodb",
   "version": "1.0.0",
-  "description": "Koa basic server boilerplate example",
+  "description": "Koa mongodb server boilerplate example",
   "main": "index.js",
   "scripts": {
-    "dev": "sudo pm2 start ./config/app.json --only koaBoilerplate-development --env development",
-    "prod": "pm2 start ./config/app.json --only koaBoilerplate-production --env production",
+    "dev": "sudo pm2 start ./config/app.json --only koaMongoDB-development --env development",
+    "prod": "pm2 start ./config/app.json --only koaMongoDB-production --env production",
     "doc": "jsdoc -c ./config/jsdoc.json"
   },
   "keywords": [
